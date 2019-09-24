@@ -14,3 +14,6 @@ ReactDOM.render(<App />, document.getElementById('root'));
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
+
+//When you target src, the app auto targets index.js, then loads the app.js file from here, 
+//It then takes what it grabs and puts it into what is known as a bundle
